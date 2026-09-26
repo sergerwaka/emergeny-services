@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Emergency backend focused tests",
+			"type": "shell",
+			"command": "npm.cmd",
+			"args": [
+				"test",
+				"--",
+				"--runInBand",
+				"tests/report-validation.test.js"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
